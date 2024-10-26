@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Interactiva</title>
+    <style>
+        /* Reset de estilos */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos del cuerpo */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9fafc;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        /* Encabezado */
+        header {
+            width: 100%;
+            background-color: #5c7cfa;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        /* Contenedor principal */
+        main {
+            max-width: 900px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Secciones con efecto de expansión */
+        section {
+            background-color: white;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 30px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        section:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        section h2 {
+            color: #5c7cfa;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+        /* Pie de página */
+        footer {
+            width: 100%;
+            background-color: #5c7cfa;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Bienvenido a Mi Página
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Esta es la página web de Omar Sanchez Cibrian, Número de control 22211928.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Correo electrónico: <strong>l22211928@tectijuana.edu.mx</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Análisis y Modelado de Sistemas de Información | Omar Sanchez Cibrian</p>
+    </footer>
+
+</body>
+</html>
